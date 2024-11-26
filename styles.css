@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Banner */
+  .banner {
+    text-align: center;
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    padding: 50px;
+  }
+  
+  /* Sections */
+  section {
+    padding: 20px;
+  }
+  
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .category {
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .weather-updates, .market-trends, .support {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  

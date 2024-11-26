@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriculture Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">AgriShop</div>
+    <nav>
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#knowledge-hub">Knowledge Hub</a></li>
+        <li><a href="#weather-updates">Weather</a></li>
+        <li><a href="#market-trends">Market Trends</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search products...">
+      <button>Search</button>
+    </div>
+  </header>
+
+  <!-- Homepage Banner -->
+  <section class="banner">
+    <h1>Welcome to AgriShop</h1>
+    <p>Providing the best agricultural tools, seeds, and advice.</p>
+    <button onclick="scrollToSection('products')">Shop Now</button>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="products">
+    <h2>Featured Products</h2>
+    <div class="categories">
+      <div class="category">
+        <h3>Seeds</h3>
+        <button>Explore</button>
+      </div>
+      <div class="category">
+        <h3>Fertilizers</h3>
+        <button>Explore</button>
+      </div>
+      <div class="category">
+        <h3>Tools</h3>
+        <button>Explore</button>
+      </div>
+      <div class="category">
+        <h3>Organic Products</h3>
+        <button>Explore</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Knowledge Hub -->
+  <section id="knowledge-hub">
+    <h2>Knowledge Hub</h2>
+    <div class="articles">
+      <article>
+        <h3>Gardening Tips</h3>
+        <p>Discover techniques to grow your garden sustainably.</p>
+        <a href="#">Read More</a>
+      </article>
+      <article>
+        <h3>Farming Techniques</h3>
+        <p>Learn advanced farming methods for better yields.</p>
+        <a href="#">Read More</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Weather Updates -->
+  <section id="weather-updates">
+    <h2>Weather Updates</h2>
+    <div id="weather">
+      <p>Loading weather data...</p>
+    </div>
+  </section>
+
+  <!-- Market Trends -->
+  <section id="market-trends">
+    <h2>Market Trends</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Crop</th>
+          <th>Price (Per Quintal)</th>
+          <th>Market</th>
+        </tr>
+      </thead>
+      <tbody id="market-data">
+        <tr>
+          <td>Loading data...</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Customer Support -->
+  <section id="support">
+    <h2>Customer Support</h2>
+    <div class="support-options">
+      <p>Need help? Chat with us or reach out via email or phone!</p>
+      <button>Chat Now</button>
+      <a href="mailto:support@agrishop.com">Email Us</a>
+    </div>
+    <div class="faq">
+      <h3>FAQ</h3>
+      <ul>
+        <li>How do I track my order?</li>
+        <li>What is the return policy?</li>
+        <li>How to get crop-specific advice?</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 AgriShop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
